@@ -1,17 +1,23 @@
-# 🧮 Calculator App
+# 🧮 Calculator Projects
 ![C++ Language](https://img.shields.io/badge/Language-C++-blue)
 
-A simple C++ console application for basic arithmetic operations. Add, subtract, multiply, and divide two numbers quickly.
+A collection of simple C++ console applications for basic calculations.
 
-## ✨ Features
+---
+
+## 1️⃣ Calculator App (`Calculator.cpp`)
+
+A basic calculator for arithmetic operations: addition, subtraction, multiplication, and division.
+
+### ✨ Features
 
 - ➕ **Addition** ( + )
 - ➖ **Subtraction** ( - )
 - ✖️ **Multiplication** ( * )
 - ➗ **Division** ( / )
-- ⚠️ **Error Handling:** Prevent division by zero and invalid operators.
+- ⚠️ **Error Handling:** Prevents division by zero and invalid operators.
 
-## 🚀 How to Use
+### 🚀 How to Use
 
 1. **Compile the program**
     ```bash
@@ -24,13 +30,46 @@ A simple C++ console application for basic arithmetic operations. Add, subtract,
     ```
 
 3. **Follow the prompts:**
-```
-Enter first number:
-Enter operator (+, -, *, /):
-Enter second number:
-```
+    ```
+    Enter first number:
+    Enter operator (+, -, *, /):
+    Enter second number:
+    ```
 
 4. 💡 The result will be shown or an error message if the operation is invalid.
+
+---
+
+## 2️⃣ Hypotenuse Calculator (`Hypotenuse Calculator.cpp`)
+
+Calculate the hypotenuse of a right-angled triangle using the Pythagorean theorem.
+
+### ✨ Features
+
+- 📐 **Hypotenuse Calculation:** Enter the lengths of the two perpendicular sides to get the hypotenuse.
+- ⚠️ **Error Handling:** Checks for valid (positive) side lengths.
+
+### 🚀 How to Use
+
+1. **Compile the program**
+    ```bash
+    g++ "Hypotenuse Calculator.cpp" -o HypotenuseCalculator
+    ```
+
+2. **Run the executable**
+    ```bash
+    ./HypotenuseCalculator
+    ```
+
+3. **Follow the prompts:**
+    ```
+    Enter length of side A:
+    Enter length of side B:
+    ```
+
+4. 💡 The hypotenuse will be calculated and displayed.
+
+---
 
 ## 📦 Requirements
 

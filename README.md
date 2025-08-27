@@ -32,7 +32,8 @@ A collection of classic and useful C++ console applications, each in its own fol
 - 🎮 **Game**  
   - ✊🖐️✌️ Rock Paper Scissor game  
   - ⭕❌ Tic Tac Toe game
-
+  - 🔢 Number Guessing 
+  - 📚 OOP/C++ Quiz Game
 ---
 
 ## 🚀 Usage
